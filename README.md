@@ -1,5 +1,5 @@
 HTTP Client 0.1
----------------
+===============
 
 Author
 ------
@@ -20,13 +20,13 @@ Usage
 
 Unzip the file and enter its directory
 
-'''
+```
 $   cd HTTPClient
 
 $   make
 
 $   java -jar HTTPClient.jar <METHOD> <URL>
-'''
+```
 
 Documentation
 -------------
@@ -62,12 +62,13 @@ Example 1
 
 Request:
 
-'''
+```
   $   java -jar HTTPClient.jar PUT http://sefcom.asu.edu/
-'''
+```
 
 Response:
 
+```
   HTTP/1.1 403 Forbidden
 
   Date : Wed, 27 Jan 2016 04:15:53 GMT
@@ -85,18 +86,19 @@ Response:
 
   java.io.IOException: Server returned HTTP response code: 403 for
   URL: http://sefcom.asu.edu/
-
+```
 
 Example 2
 
 Request:
 
-'''
+```
   $   java -jar HTTPClient.jar TRACE http://utk.edu/
-'''
+```
 
 Response:
 
+```
   HTTP/1.1 200 OK
 
   Date : Wed, 27 Jan 2016 04:18:41 GMT
@@ -117,18 +119,20 @@ Response:
   TRACE / HTTP/1.1User-Agent: JavaHost:
   utk.eduAccept: text/html, image/gif, image/jpeg, *;
   q=.2, */*; q=.2Connection: keep-alive
+```
 
 
 Example 3
 
 Request:
 
-'''
+```
   $   java -jar HTTPClient.jar GET http://www.msftncsi.com/ncsi.txt
-'''
+```
 
 Response:
 
+```
   HTTP/1.1 200 OK
 
   Content-Length : 14
@@ -143,7 +147,7 @@ Response:
 
 
   Microsoft NCSI
-
+```
 
 Github
 ------
