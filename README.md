@@ -10,7 +10,7 @@ UTID: 000437123
 What is it?
 -----------
 
-This is a simple HTTP/1.1 client based on RFC 2616 developed
+This is a simple HTTP/1.1 client based on RFC 2616[https://www.ietf.org/rfc/rfc2616.txt] developed
 as an assignment of the subject COSC566 - Web Security. It supports
 redirections and chunked data. It was developed in Java
 version 1.8.0_71.
