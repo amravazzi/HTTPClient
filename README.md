@@ -5,7 +5,6 @@ Author
 ------
 
 André Ravazzi @ University of Tennessee, Knoxville
-UTID: 000437123
 
 What is it?
 -----------
