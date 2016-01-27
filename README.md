@@ -18,7 +18,7 @@ version 1.8.0_71.
 Usage
 -----
 
-Unzip the file and enter its directory
+Unzip or clone the repo and enter its directory
 
 ```
 $   cd HTTPClient
